@@ -1,0 +1,18 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "member-access": [false]
+    },
+    "rulesDirectory": [],
+    "ordered-imports": [
+        true,
+        {
+          "import-sources-order": "any",
+          "named-imports-order": "any"
+        }
+      ]
+}

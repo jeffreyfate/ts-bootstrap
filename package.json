@@ -1,0 +1,49 @@
+{
+  "name": "ts-bootstrap",
+  "version": "0.0.0",
+  "description": "TypeScript template project",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose | snazzy && mocha --compilers ts:ts-node/register \"src/**/*.unit.ts\"",
+    "lint": "yarn lint:js",
+    "lint:js": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeffreyfate/ts-bootstrap.git"
+  },
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "author": "Jeffrey Fate <fatejd@gmail.com> (https://www.zerogrok.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/jeffreyfate/ts-bootstrap#README",
+  "devDependencies": {
+    "@fluffy-spoon/substitute": "1.0.66",
+    "@types/chai": "4.1.7",
+    "@types/chai-as-promised": "7.1.0",
+    "@types/mocha": "5.2.5",
+    "@types/node": "10.12.18",
+    "@types/sinon-chai": "3.2.2",
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "babel-preset-env": "1.7.0",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "eslint": "5.12.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.15.0",
+    "mocha": "5.2.0",
+    "sinon": "7.2.3",
+    "sinon-chai": "3.3.0",
+    "snazzy": "8.0.0",
+    "standard": "12.0.1",
+    "ts-node": "8.0.1",
+    "ts-sinon": "1.0.12",
+    "typescript": "3.2.4"
+  },
+  "dependencies": {
+    "inversify": "5.0.1"
+  }
+}
